@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&amp;subset=latin-ext&amp;display=swap">
     <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/fonts/line-awesome.min.css">
     <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css">
     <link rel="stylesheet" href="assets/css/libs/flickity.css">
     <link rel="stylesheet" href="assets/css/libs/jquery.fancybox.css">
@@ -31,7 +32,7 @@
             <div class="bg-secondary p-3">
                 <p class="text-center mb-0"><a href="page.html">Darmowa dostawa na terenie Polski od 199 zł!</a></p>
             </div>
-            <div class="py-3">
+            <div class="pt-3">
                 <div class="container">
                     <div class="row justify-content-between align-items-center justify-content-sm-center justify-content-lg-between">
                         <div class="col-12 col-lg-auto order-1 order-lg-2 py-3">
@@ -93,14 +94,35 @@
                         </ul>
                     </div>
                     <div class="d-lg-none" id="menu__mobile">
-                        <div id="collapse__menu" class="collapse">
-                            <ul class="nav text-uppercase justify-content-center">
-                                <li class="nav-item"><a class="nav-link active" href="category.html">Sklep</a></li>
-                                <li class="nav-item"><a class="nav-link" href="category.html">Body Positive</a></li>
-                                <li class="nav-item"><a class="nav-link" href="category.html">#mamymoc</a></li>
-                                <li class="nav-item"><a class="nav-link" href="about.html">Marka</a></li>
-                                <li class="nav-item"><a class="nav-link" href="shops.html">Salony</a></li>
-                                <li class="nav-item"><a class="nav-link" href="contact.html">Kontakt</a></li>
+                        <div id="collapse__menu" class="collapse show">
+                            <ul class="nav flex-column text-uppercase">
+                                <li class="nav-item"><span class="d-flex justify-content-between"><a class="active d-flex align-items-center" href="category.html">Sklep</a><button class="btn p-0 btn--noshadow" type="button" data-target="#collapse__menu__1" data-toggle="collapse"><i class="la la-plus"></i></button></span>
+                                    <ul class="list-unstyled mb-0 px-3 collapse" id="collapse__menu__1">
+                                        <li><a class="text-nowrap d-block font-weight-bolder" href="category.html">Nowości</a></li>
+                                        <li><a class="text-nowrap d-block" href="category.html">Do -50%</a></li>
+                                        <li><a class="text-nowrap d-block" href="category.html">Tylko on-line</a></li>
+                                        <li><a class="text-nowrap d-block" href="category.html">Body Positive</a></li>
+                                        <li><a class="text-nowrap d-block" href="category.html">Akcja mamymoc</a></li>
+                                        <li><a class="text-nowrap d-block" href="category.html">Sukienki</a></li>
+                                        <li><a class="text-nowrap d-block" href="category.html">Spódnice</a></li>
+                                        <li><a class="text-nowrap d-block" href="category.html">Spodnie</a></li>
+                                        <li><a class="text-nowrap d-block" href="category.html">Swetry</a></li>
+                                        <li><a class="text-nowrap d-block" href="category.html">Koszule</a></li>
+                                        <li><a class="text-nowrap d-block" href="category.html">Kurtki</a></li>
+                                        <li><a class="text-nowrap d-block" href="category.html">Kamizelki</a></li>
+                                        <li><a class="text-nowrap d-block" href="category.html">Bluzki</a></li>
+                                        <li><a class="text-nowrap d-block" href="category.html">Bluzy</a></li>
+                                        <li><a class="text-nowrap d-block" href="category.html">Płaszcze</a></li>
+                                        <li><a class="text-nowrap d-block" href="category.html">Żakiety</a></li>
+                                        <li><a class="text-nowrap d-block" href="category.html">Wyprzedaż</a></li>
+                                        <li><a class="text-nowrap d-block" href="category.html">Akcesoria</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item"><span class="d-flex justify-content-between"><a class="d-flex align-items-center" href="category.html">Body Positive</a></span></li>
+                                <li class="nav-item"><span class="d-flex justify-content-between"><a class="d-flex align-items-center" href="category.html">#mamymoc</a></span></li>
+                                <li class="nav-item"><span class="d-flex justify-content-between"><a class="d-flex align-items-center" href="about.html">Marka</a></span></li>
+                                <li class="nav-item"><span class="d-flex justify-content-between"><a class="d-flex align-items-center" href="shops.html">Salony</a></span></li>
+                                <li class="nav-item"><span class="d-flex justify-content-between"><a class="d-flex align-items-center" href="contact.html">Kontakt</a></span></li>
                             </ul>
                         </div>
                     </div>

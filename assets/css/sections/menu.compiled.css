@@ -20,12 +20,12 @@
   left: 0;
   top: 100%;
   z-index: 1000;
-  padding: 30px;
+  padding: 30px 45px;
   background: rgba(255, 255, 255, 0.85);
   column-count: 3;
 }
 #menu__desktop ul.nav > li > ul li {
-  padding: 2.5px 15px;
+  padding: 2.5px 30px;
 }
 #menu__desktop ul.nav > li:hover:after {
   opacity: 1;
