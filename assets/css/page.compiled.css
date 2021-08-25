@@ -18,3 +18,39 @@ html {
 .overflow-visible {
   overflow: visible;
 }
+
+header .btn {
+  box-shadow: none !important;
+}
+header .btn:hover {
+  opacity: 0.5;
+}
+
+.breadcrumb {
+  font-size: small;
+}
+
+.nav.nav-pills.pills--bordered .nav-link {
+  border: 1px solid transparent;
+  font-weight: 400;
+}
+.nav.nav-pills.pills--bordered .nav-link.active {
+  background: transparent;
+  border-color: black;
+  color: black;
+}
+.nav.nav-pills.pills--bordered .nav-link:hover {
+  border-color: black;
+}
+.nav.nav-pills.pills--lg .nav-link {
+  font-size: 1.5rem;
+  padding: 0.5rem 2.5rem;
+  margin: 0.5rem;
+}
+
+.btn--noshadow {
+  box-shadow: none !important;
+}
+.btn--noshadow:hover {
+  opacity: 0.5;
+}

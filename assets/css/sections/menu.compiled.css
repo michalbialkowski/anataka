@@ -1,0 +1,35 @@
+#menu__desktop ul.nav > li {
+  position: relative;
+}
+#menu__desktop ul.nav > li:after {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 1px;
+  width: 15px;
+  bottom: 0;
+  left: calc(50% - 7.5px);
+  background: black;
+  z-index: 100;
+  opacity: 0;
+  transition: opacity 1s;
+}
+#menu__desktop ul.nav > li > ul {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  z-index: 1000;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.85);
+  column-count: 3;
+}
+#menu__desktop ul.nav > li > ul li {
+  padding: 2.5px 15px;
+}
+#menu__desktop ul.nav > li:hover:after {
+  opacity: 1;
+}
+#menu__desktop ul.nav > li:hover > ul {
+  display: block;
+}

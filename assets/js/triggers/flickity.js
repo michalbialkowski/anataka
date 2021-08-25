@@ -8,10 +8,13 @@ $(window).on('load', function() {
 		autoPlay: false,
 		prevNextButtons: true
 	});
+});
+
+$('#tabs__promo .nav a[data-toggle="pill"]').on('shown.bs.tab', function(event) {
+	let elem_id = $(this).attr('href');
 	
-	$('.nav-tabs').on('shown.bs.tab', 'a', function( event ) {
-		var selector = event.target.getAttribute('href');
-		$(selector).flickity('resize');
-	});
+	$(elem_id + ' .flickity--slider').flickity('resize');
+	
+	//alert(elem_id);
 });
 

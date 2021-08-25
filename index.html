@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&amp;subset=latin-ext&amp;display=swap">
     <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css">
     <link rel="stylesheet" href="assets/css/libs/flickity.css">
     <link rel="stylesheet" href="assets/css/libs/jquery.fancybox.css">
     <link rel="stylesheet" href="assets/css/overrides/flickity.compiled.css">
@@ -21,17 +22,18 @@
     <link rel="stylesheet" href="assets/css/bootstrap/bootstrap.compiled.css">
     <link rel="stylesheet" href="assets/css/components/svg.compiled.css">
     <link rel="stylesheet" href="assets/css/page.compiled.css">
+    <link rel="stylesheet" href="assets/css/sections/menu.compiled.css">
 </head>
 
 <body>
     <div>
         <header>
             <div class="bg-secondary p-3">
-                <p class="text-center mb-0">Darmowa dostawa na terenie Polski od 199 zł!</p>
+                <p class="text-center mb-0"><a href="page.html">Darmowa dostawa na terenie Polski od 199 zł!</a></p>
             </div>
             <div class="py-3">
                 <div class="container">
-                    <div class="row justify-content-between align-items-center">
+                    <div class="row justify-content-between align-items-center justify-content-sm-center justify-content-lg-between">
                         <div class="col-12 col-lg-auto order-1 order-lg-2 py-3">
                             <div class="d-flex justify-content-center"><a href="index.html"><img class="img-fluid" src="assets/img/anataka_logo.svg" style="height: 90px;"></a></div>
                         </div>
@@ -48,7 +50,7 @@
                         <div class="col-12 col-sm-auto order-3 py-3">
                             <div class="row justify-content-center">
                                 <div class="col-auto">
-                                    <div class="btn-group" role="group"><button class="btn" type="button"><img src="assets/img/icons/ico_search.svg"></button><button class="btn" type="button"><img src="assets/img/icons/ico_account.svg"></button><button class="btn" type="button"><img src="assets/img/icons/ico_heart.svg"></button><button class="btn" type="button"><img src="assets/img/icons/ico_bag.svg"></button></div>
+                                    <div class="btn-group align-items-center" role="group"><button class="btn d-flex align-items-center" type="button"><img class="img-fluid" src="assets/img/icons/ico_search.svg"></button><button class="btn d-flex align-items-center" type="button"><img class="img-fluid" src="assets/img/icons/ico_account.svg"></button><button class="btn d-flex align-items-center" type="button"><img class="img-fluid" src="assets/img/icons/ico_heart.svg"></button><button class="btn d-flex align-items-center" type="button"><img class="img-fluid" src="assets/img/icons/ico_bag.svg"></button><button class="btn d-flex d-lg-none align-items-center" type="button" data-target="#collapse__menu" data-toggle="collapse"><i class="icon-menu" style="font-size: 24px;"></i></button></div>
                                 </div>
                             </div>
                         </div>
@@ -59,14 +61,49 @@
         <main>
             <div class="mb-3">
                 <div class="container">
-                    <ul class="nav text-uppercase justify-content-center">
-                        <li class="nav-item"><a class="nav-link active" href="category.html">Sklep</a></li>
-                        <li class="nav-item"><a class="nav-link" href="category.html">Body Positive</a></li>
-                        <li class="nav-item"><a class="nav-link" href="category.html">#mamymoc</a></li>
-                        <li class="nav-item"><a class="nav-link" href="about.html">Marka</a></li>
-                        <li class="nav-item"><a class="nav-link" href="shops.html">Salony</a></li>
-                        <li class="nav-item"><a class="nav-link" href="contact.html">Kontakt</a></li>
-                    </ul>
+                    <div class="d-none d-lg-block" id="menu__desktop">
+                        <ul class="nav text-uppercase justify-content-center">
+                            <li class="nav-item"><a class="nav-link active" href="category.html">Sklep</a>
+                                <ul class="list-unstyled mb-0">
+                                    <li><a class="text-nowrap d-block font-weight-bolder" href="category.html">Nowości</a></li>
+                                    <li><a class="text-nowrap d-block" href="category.html">Do -50%</a></li>
+                                    <li><a class="text-nowrap d-block" href="category.html">Tylko on-line</a></li>
+                                    <li><a class="text-nowrap d-block" href="category.html">Body Positive</a></li>
+                                    <li><a class="text-nowrap d-block" href="category.html">Akcja mamymoc</a></li>
+                                    <li><a class="text-nowrap d-block" href="category.html">Sukienki</a></li>
+                                    <li><a class="text-nowrap d-block" href="category.html">Spódnice</a></li>
+                                    <li><a class="text-nowrap d-block" href="category.html">Spodnie</a></li>
+                                    <li><a class="text-nowrap d-block" href="category.html">Swetry</a></li>
+                                    <li><a class="text-nowrap d-block" href="category.html">Koszule</a></li>
+                                    <li><a class="text-nowrap d-block" href="category.html">Kurtki</a></li>
+                                    <li><a class="text-nowrap d-block" href="category.html">Kamizelki</a></li>
+                                    <li><a class="text-nowrap d-block" href="category.html">Bluzki</a></li>
+                                    <li><a class="text-nowrap d-block" href="category.html">Bluzy</a></li>
+                                    <li><a class="text-nowrap d-block" href="category.html">Płaszcze</a></li>
+                                    <li><a class="text-nowrap d-block" href="category.html">Żakiety</a></li>
+                                    <li><a class="text-nowrap d-block" href="category.html">Wyprzedaż</a></li>
+                                    <li><a class="text-nowrap d-block" href="category.html">Akcesoria</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="category.html">Body Positive</a></li>
+                            <li class="nav-item"><a class="nav-link" href="category.html">#mamymoc</a></li>
+                            <li class="nav-item"><a class="nav-link" href="about.html">Marka</a></li>
+                            <li class="nav-item"><a class="nav-link" href="shops.html">Salony</a></li>
+                            <li class="nav-item"><a class="nav-link" href="contact.html">Kontakt</a></li>
+                        </ul>
+                    </div>
+                    <div class="d-lg-none" id="menu__mobile">
+                        <div id="collapse__menu" class="collapse">
+                            <ul class="nav text-uppercase justify-content-center">
+                                <li class="nav-item"><a class="nav-link active" href="category.html">Sklep</a></li>
+                                <li class="nav-item"><a class="nav-link" href="category.html">Body Positive</a></li>
+                                <li class="nav-item"><a class="nav-link" href="category.html">#mamymoc</a></li>
+                                <li class="nav-item"><a class="nav-link" href="about.html">Marka</a></li>
+                                <li class="nav-item"><a class="nav-link" href="shops.html">Salony</a></li>
+                                <li class="nav-item"><a class="nav-link" href="contact.html">Kontakt</a></li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div>
@@ -124,11 +161,11 @@
             </div>
             <div class="py-5">
                 <div class="container">
-                    <div>
-                        <ul class="nav nav-tabs justify-content-center mb-3" role="tablist">
-                            <li class="nav-item" role="presentation"><a class="nav-link active" role="tab" data-toggle="tab" href="#tab-1">Nowości</a></li>
-                            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-toggle="tab" href="#tab-2">Top</a></li>
-                            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-toggle="tab" href="#tab-3">Promocje</a></li>
+                    <div id="tabs__promo">
+                        <ul class="nav nav-pills text-uppercase justify-content-center mb-3 pills--bordered pills--lg" role="tablist">
+                            <li class="nav-item" role="presentation"><a class="nav-link active" role="tab" data-toggle="pill" href="#tab-1">Nowości</a></li>
+                            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-toggle="pill" href="#tab-2">Top</a></li>
+                            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-toggle="pill" href="#tab-3">Promocje</a></li>
                         </ul>
                         <div class="tab-content">
                             <div class="tab-pane fade show active" role="tabpanel" id="tab-1">
@@ -229,7 +266,7 @@
                             </div>
                             <div class="tab-pane fade" role="tabpanel" id="tab-2">
                                 <div class="overflow-hidden">
-                                    <div class="row flex-nowrap">
+                                    <div class="row flex-nowrap flickity--slider">
                                         <div class="col-12 col-sm-6 col-lg-4 py-3">
                                             <div class="card border-0"><a class="d-block" href="product.html">
                                                     <div class="mb-3">
@@ -325,7 +362,7 @@
                             </div>
                             <div class="tab-pane fade" role="tabpanel" id="tab-3">
                                 <div class="overflow-hidden">
-                                    <div class="row flex-nowrap">
+                                    <div class="row flex-nowrap flickity--slider">
                                         <div class="col-12 col-sm-6 col-lg-4 py-3">
                                             <div class="card border-0"><a class="d-block" href="product.html">
                                                     <div class="mb-3">
@@ -426,14 +463,14 @@
             <div class="py-5">
                 <div class="container">
                     <div class="d-flex justify-content-center">
-                        <div class="btn-group" role="group"><button class="btn btn-lg" type="button"><i class="fab fa-facebook-f" style="font-size: 50px;"></i></button><button class="btn btn-lg" type="button"><i class="fab fa-instagram" style="font-size: 50px;"></i></button><button class="btn btn-lg" type="button"><i class="fab fa-youtube" style="font-size: 50px;"></i></button></div>
+                        <div class="btn-group" role="group"><button class="btn btn-lg btn--noshadow" type="button"><i class="fab fa-facebook-f" style="font-size: 50px;"></i></button><button class="btn btn-lg btn--noshadow" type="button"><i class="fab fa-instagram" style="font-size: 50px;"></i></button><button class="btn btn-lg btn--noshadow" type="button"><i class="fab fa-youtube" style="font-size: 50px;"></i></button></div>
                     </div>
                 </div>
             </div>
             <div class="py-5">
                 <div class="container">
                     <div class="d-flex justify-content-center">
-                        <div class="btn-group btn-group-lg flex-wrap" role="group"><button class="btn text-uppercase" type="button" style="width: 240px;"><span class="d-flex justify-content-center align-items-center mb-3" style="height: 55px;"><img class="img-fluid" src="assets/img/icons/pikto1.png"></span><small class="d-block font-weight-bold" style="font-size: small;">Zwrot</small><small class="d-block" style="font-size: small;">do 30 dni</small></button><button class="btn text-uppercase" type="button" style="width: 240px;"><span class="d-flex justify-content-center align-items-center mb-3" style="height: 55px;"><img class="img-fluid" src="assets/img/icons/pikto2.png"></span><small class="d-block font-weight-bold" style="font-size: small;">Darmowa dostawa</small><small class="d-block" style="font-size: small;">od 199 zł</small></button><button class="btn text-uppercase" type="button" style="width: 240px;"><span class="d-flex justify-content-center align-items-center mb-3" style="height: 55px;"><img class="img-fluid" src="assets/img/icons/pikto3.png"></span><small class="d-block font-weight-bold" style="font-size: small;">Bezpieczne płatności</small><small class="d-block" style="font-size: small;">sprawdzeni operatorzy</small></button></div>
+                        <div class="btn-group btn-group-lg flex-wrap" role="group"><button class="btn text-uppercase btn--noshadow" type="button" style="width: 240px;"><span class="d-flex justify-content-center align-items-center mb-3" style="height: 55px;"><img class="img-fluid" src="assets/img/icons/pikto1.png"></span><small class="d-block font-weight-bold" style="font-size: small;">Zwrot</small><small class="d-block" style="font-size: small;">do 30 dni</small></button><button class="btn text-uppercase btn--noshadow" type="button" style="width: 240px;"><span class="d-flex justify-content-center align-items-center mb-3" style="height: 55px;"><img class="img-fluid" src="assets/img/icons/pikto2.png"></span><small class="d-block font-weight-bold" style="font-size: small;">Darmowa dostawa</small><small class="d-block" style="font-size: small;">od 199 zł</small></button><button class="btn text-uppercase btn--noshadow" type="button" style="width: 240px;"><span class="d-flex justify-content-center align-items-center mb-3" style="height: 55px;"><img class="img-fluid" src="assets/img/icons/pikto3.png"></span><small class="d-block font-weight-bold" style="font-size: small;">Bezpieczne płatności</small><small class="d-block" style="font-size: small;">sprawdzeni operatorzy</small></button></div>
                     </div>
                 </div>
             </div>
