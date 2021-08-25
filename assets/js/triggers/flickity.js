@@ -8,4 +8,10 @@ $(window).on('load', function() {
 		autoPlay: false,
 		prevNextButtons: true
 	});
+	
+	$('.nav-tabs').on('shown.bs.tab', 'a', function( event ) {
+		var selector = event.target.getAttribute('href');
+		$(selector).flickity('resize');
+	});
 });
+
