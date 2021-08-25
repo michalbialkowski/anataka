@@ -4,9 +4,9 @@ $(window).on('load', function() {
 		contain: true,
 		freeScroll: false,
 		wrapAround: true,
-		pageDots: true,
+		pageDots: false,
 		autoPlay: false,
-		prevNextButtons: true
+		prevNextButtons: false
 	});
 });
 
