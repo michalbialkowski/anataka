@@ -54,3 +54,20 @@ header .btn:hover {
 .btn--noshadow:hover {
   opacity: 0.5;
 }
+
+ul.menu--categories .btn {
+  line-height: 1;
+}
+ul.menu--categories > li ul li a {
+  display: flex;
+  align-items: center;
+}
+ul.menu--categories > li ul li a:before {
+  content: "";
+  display: block;
+  width: 10px;
+  height: 1px;
+  background: black;
+  opacity: 0.5;
+  margin-right: 10px;
+}
