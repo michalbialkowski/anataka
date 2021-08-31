@@ -58,6 +58,12 @@ header .btn:hover {
 ul.menu--categories .btn {
   line-height: 1;
 }
+ul.menu--categories .btn i {
+  transition: transform 0.25s;
+}
+ul.menu--categories .btn[aria-expanded=true] i {
+  transform: rotate(90deg);
+}
 ul.menu--categories > li ul li a {
   display: flex;
   align-items: center;
