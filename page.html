@@ -9,20 +9,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&amp;subset=latin-ext&amp;display=swap">
     <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
     <link rel="stylesheet" href="assets/fonts/line-awesome.min.css">
-    <link rel="stylesheet" href="assets/css/libs/flickity.css">
-    <link rel="stylesheet" href="assets/css/libs/jquery.fancybox.css">
-    <link rel="stylesheet" href="assets/css/overrides/flickity.compiled.css">
-    <link rel="stylesheet" href="assets/css/components/ratio.compiled.css">
-    <link rel="stylesheet" href="assets/css/fx/font-weight.compiled.css">
-    <link rel="stylesheet" href="assets/css/fx/opacity.compiled.css">
-    <link rel="stylesheet" href="assets/css/fx/sizes.compiled.css">
-    <link rel="stylesheet" href="assets/css/components/fullscreen-modal.compiled.css">
-    <link rel="stylesheet" href="assets/css/bootstrap/bootstrap-grid.compiled.css">
-    <link rel="stylesheet" href="assets/css/bootstrap/bootstrap-reboot.compiled.css">
-    <link rel="stylesheet" href="assets/css/bootstrap/bootstrap.compiled.css">
-    <link rel="stylesheet" href="assets/css/components/svg.compiled.css">
-    <link rel="stylesheet" href="assets/css/page.compiled.css">
-    <link rel="stylesheet" href="assets/css/sections/menu.compiled.css">
+    <link rel="stylesheet" href="assets/css/styles.min.css">
 </head>
 
 <body>
@@ -31,37 +18,33 @@
             <div class="bg-secondary p-3">
                 <p class="text-center mb-0"><a href="page.html">Darmowa dostawa na terenie Polski od 199 zł!</a></p>
             </div>
-            <div class="pt-3">
+            <div class="py-3">
                 <div class="container">
-                    <div class="row justify-content-between align-items-center justify-content-sm-center justify-content-lg-between">
-                        <div class="col-12 col-lg-auto order-1 order-lg-2 py-3">
+                    <div class="row no-gutters justify-content-between align-items-center justify-content-sm-center justify-content-lg-between my-n2 mx-sm-n3">
+                        <div class="col-12 col-lg-auto order-1 order-lg-2 py-2 px-sm-3">
                             <div class="d-flex justify-content-center"><a href="index.html"><img class="img-fluid" src="assets/img/anataka_logo.svg" style="height: 90px;"></a></div>
                         </div>
-                        <div class="col-12 col-sm-auto order-2 order-lg-1 pb-3 pt-lg-3">
-                            <div class="row justify-content-center">
-                                <div class="col-auto border-right">
-                                    <div class="btn-group" role="group"><button class="btn" type="button">PL</button><button class="btn" type="button">EN</button></div>
+                        <div class="col-auto col-sm-auto order-2 order-lg-1 py-2 px-sm-3">
+                            <div class="row no-gutters justify-content-center align-items-center mx-sm-n3">
+                                <div class="col-auto px-sm-3">
+                                    <div class="btn-group mb-0" role="group"><button class="btn px-2" type="button">PL</button><button class="btn px-2" type="button">EN</button></div>
                                 </div>
-                                <div class="col-auto">
-                                    <div class="btn-group" role="group"><button class="btn" type="button"><i class="fab fa-facebook-f"></i></button><button class="btn" type="button"><i class="fab fa-instagram"></i></button><button class="btn" type="button"><i class="fab fa-youtube"></i></button></div>
+                                <div class="col-auto d-none d-sm-block border-left px-sm-3">
+                                    <div class="btn-group mb-0" role="group"><button class="btn px-2" type="button"><i class="fab fa-facebook-f"></i></button><button class="btn px-2" type="button"><i class="fab fa-instagram"></i></button><button class="btn px-2" type="button"><i class="fab fa-youtube"></i></button></div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-sm-auto order-3 pb-3 pt-lg-3">
-                            <div class="row justify-content-center">
-                                <div class="col-auto">
-                                    <div class="btn-group align-items-center" role="group"><button class="btn d-flex align-items-center" type="button" data-target="#modal__search" data-toggle="modal"><img class="img-fluid" src="assets/img/icons/ico_search.svg"></button><button class="btn d-flex align-items-center" type="button"><img class="img-fluid" src="assets/img/icons/ico_account.svg"></button><button class="btn d-flex align-items-center" type="button"><img class="img-fluid" src="assets/img/icons/ico_heart.svg"></button><button class="btn d-flex align-items-center" type="button"><img class="img-fluid" src="assets/img/icons/ico_bag.svg"></button><button class="btn d-flex d-lg-none align-items-center" type="button" data-target="#collapse__menu" data-toggle="collapse"><img src="assets/img/icons/icon-menu_2.svg" style="width: 24px;"></button></div>
-                                </div>
-                            </div>
+                        <div class="col-auto col-sm-auto order-3 py-2 px-sm-3">
+                            <div class="btn-group align-items-center mb-0" role="group"><button class="btn d-flex align-items-center px-2" type="button" data-target="#modal__search" data-toggle="modal"><img class="img-fluid" src="assets/img/icons/ico_search.svg"></button><button class="btn d-flex align-items-center px-2" type="button"><img class="img-fluid" src="assets/img/icons/ico_account.svg"></button><button class="btn d-flex align-items-center px-2" type="button"><img class="img-fluid" src="assets/img/icons/ico_heart.svg"></button><button class="btn d-flex align-items-center px-2" type="button"><img class="img-fluid" src="assets/img/icons/ico_bag.svg"></button><button class="btn d-flex d-lg-none align-items-center px-2" type="button" data-target="#collapse__menu" data-toggle="collapse"><img src="assets/img/icons/icon-menu_2.svg" style="width: 24px;"></button></div>
                         </div>
                     </div>
                 </div>
             </div>
         </header>
         <main>
-            <div class="mb-3">
+            <div>
                 <div class="container">
-                    <div class="d-none d-lg-block" id="menu__desktop">
+                    <div class="d-none d-lg-block mb-3" id="menu__desktop">
                         <ul class="nav text-uppercase justify-content-center">
                             <li class="nav-item"><a class="nav-link active" href="category.html">Sklep</a>
                                 <ul class="list-unstyled mb-0">
@@ -93,7 +76,7 @@
                         </ul>
                     </div>
                     <div class="d-lg-none" id="menu__mobile">
-                        <div id="collapse__menu" class="collapse">
+                        <div id="collapse__menu" class="collapse mb-2">
                             <ul class="nav flex-column text-uppercase">
                                 <li class="nav-item"><span class="d-flex justify-content-between"><a class="active d-flex align-items-center" href="category.html">Sklep</a><button class="btn p-0 btn--noshadow" type="button" data-target="#collapse__menu__1" data-toggle="collapse"><i class="la la-plus"></i></button></span>
                                     <ul class="list-unstyled mb-0 px-3 collapse" id="collapse__menu__1">
@@ -218,11 +201,7 @@
     </div>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/js/libs/jquery.fancybox.js"></script>
-    <script src="assets/js/libs/flickity.pkgd.min.js"></script>
-    <script src="assets/js/triggers/flickity.js"></script>
-    <script src="assets/js/components/svg.js"></script>
-    <script src="assets/js/page.js"></script>
+    <script src="assets/js/script.min.js"></script>
 </body>
 
 </html>
